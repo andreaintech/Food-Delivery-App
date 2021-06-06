@@ -1,6 +1,6 @@
 # Food Delivery Mobile App :orange_heart:
 
-:plate_with_cutlery: 	:cake: :spaghetti: :sushi: :poultry_leg: :hamburger: :pizza: :green_salad:
+:plate_with_cutlery: :cake: :spaghetti: :sushi: :poultry_leg: :hamburger: :pizza: :green_salad: :chopsticks:
 
 Made with React Native<br />
 Original from: [By Programmers](https://www.youtube.com/watch?v=diUDjNwZ8Lg)<br />
