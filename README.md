@@ -1,4 +1,4 @@
-# Food Delivery Mobile App :orange_heart:
+# :orange_heart: Food Delivery Mobile App :orange_heart:
 
 :plate_with_cutlery: :cake: :spaghetti: :sushi: :poultry_leg: :hamburger: :pizza: :green_salad: :chopsticks:
 
