@@ -1,4 +1,4 @@
-# Food Delivery Mobile App
+# Food Delivery Mobile App :orange_heart:
 
 Made with React Native<br />
 Original from: [By Programmers](https://www.youtube.com/watch?v=diUDjNwZ8Lg)<br />
