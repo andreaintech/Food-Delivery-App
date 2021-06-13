@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
     StyleSheet,
     Text,
@@ -10,13 +10,18 @@ import {
 } from 'react-native'
 import {
     ICONS,
-    IMAGES,
     SIZES,
     FONTS,
-    COLORS
+    COLORS,
+    DATA
 } from '../../constants'
 
 const HomeScreen = () => {
+
+    const [categories, setCategories] = useState(DATA.categoryData)
+    const [selectedCategory, setSelectedCategory] = useState(null)
+    const [restaurants, setRestaurants] = useState(DATA.restaurantData)
+    const [currentLocation, setCurrentLocation] = useState(DATA.initialCurrentLocation)
 
     const renderHeader = () => {
         return (
