@@ -3,7 +3,7 @@ import { Image, StyleSheet } from 'react-native'
 import { createBottomTabNavigator, BottomTabBar } from '@react-navigation/bottom-tabs'
 import { TabBarCustomButton } from '../components/organisms/navigations'
 import { HomeScreen } from '../screens/home'
-import { COLORS, icons } from '../constants'
+import { COLORS, ICONS } from '../constants'
 
 const Tab = createBottomTabNavigator()
 
@@ -40,7 +40,7 @@ export default function Tabs() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={icons.cutlery}
+                            source={ICONS.cutlery}
                             resizeMode='contain'
                             style={{
                                 width: 25,
@@ -63,7 +63,7 @@ export default function Tabs() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={icons.search}
+                            source={ICONS.search}
                             resizeMode='contain'
                             style={{
                                 width: 25,
@@ -86,7 +86,7 @@ export default function Tabs() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={icons.like}
+                            source={ICONS.like}
                             resizeMode='contain'
                             style={{
                                 width: 25,
@@ -109,7 +109,7 @@ export default function Tabs() {
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <Image
-                            source={icons.user}
+                            source={ICONS.user}
                             resizeMode='contain'
                             style={{
                                 width: 25,
