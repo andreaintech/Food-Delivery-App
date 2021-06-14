@@ -171,7 +171,7 @@ const HomeScreen = ({ navigation }: any) => {
                     style={{
                         marginBottom: SIZES.padding * 2,
                     }}
-                    onPress={() => navigation.navigate("Restaurant", {
+                    onPress={() => navigation.navigate("RestaurantScreen", {
                         item,
                         currentLocation
                     })}
